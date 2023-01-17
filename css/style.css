@@ -1,7 +1,4 @@
  /* commond */
-*{
-    cursor: url(/img/icon/마우스커서\ \(1\).png) 2 2, auto;
-}
 html{
     font-size:12px;
     font-family: "바른돋움";
@@ -284,6 +281,7 @@ nav ul{
     font-family:'조선굴림체';
     font-size:20px;
     margin-bottom: 20px;
+    line-height: 150%;
 }
 .d_icon{
     display: flex;
@@ -501,7 +499,6 @@ nav ul{
     background-size:cover;
     display: flex;
     justify-content: space-between;
-    pointer-events: none;
 }
 .web_big_L{
     width:calc(1820px/3);
@@ -571,13 +568,12 @@ nav ul{
 .web_big_R ul>li:last-of-type{
     margin-right: 0;
 }
-.web_big_R a{
-    display:block;
+.web_big_R p>a{
     font-family: '조선굴림체';
     font-size:18px;
     color:#fff;
 }
-.web_big_R a:hover{
+.web_big_R p>a:hover{
     border-bottom: 1px solid #fff;
     cursor: pointer;
 }
@@ -642,6 +638,7 @@ nav ul{
     left:50%;
     transform: translateX(-50%);
     cursor: pointer;
+    z-index: 5000;
 }
 .web.on::-webkit-scrollbar {
     width: 15px;
