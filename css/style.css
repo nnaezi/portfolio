@@ -1076,7 +1076,7 @@ nav ul{
     width:100%;
     height:100vh;
     background: url(../img/edi/Free\ Floating\ Magazine\ PSD\ Mockup.png) no-repeat;
-    background-size: 1920px 970px;
+    background-size: 1920px 100vh;
     position: relative;
 }
 .edi_main>h1{
@@ -1282,7 +1282,7 @@ nav ul{
 /* edi-poster1 */
 .edi_poster_d1{
     width:100%;
-    height:970px;
+    height:100vh;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -1354,7 +1354,7 @@ nav ul{
 /* poster 2 */
 .edi_poster_w1{
     width:100%;
-    height:970px;
+    height:100vh;
     display: flex;
     justify-content: space-between;
     position: relative;
