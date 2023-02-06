@@ -61,11 +61,13 @@ $(function () {
         $('.con_g_sticker').css('opacity', '0');
     })
 
+
     $('.btClose').click(function () {
         $('.wrap').removeClass("on")
         $('.con_g_sticker').css('opacity', '1');
         return false
     });
+
    
     
     
