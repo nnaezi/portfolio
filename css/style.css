@@ -403,7 +403,6 @@ nav ul{
     left: 0;
     top: 0;
     width: 100%;
-    opacity: 0;
     transition: all 0.5s ease 0s;
     display: none;
 }
@@ -438,11 +437,7 @@ nav ul{
 
 .web_small {
     background: #F8F8F8;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
 }
-
 .web_small figure{
     width:720px;
     height: 400px;
@@ -611,19 +606,9 @@ nav ul{
 }
 
 /* web.on */
-.web.on{
-    width:100%;
-    height:100vh;
-    pointer-events: all;
-    overflow-y: auto;
-    overflow-x: hidden;
-}
+
 .web.on>.web_small {
-    /* opacity: 0; */
     display: none;
-}
-.web.on>.web_big{
-    opacity: 1;
 }
 .web.on>.web_small_text{
     opacity: 0;
@@ -654,38 +639,10 @@ nav ul{
 }
 
 /* recent work - ill */
-.ill_Ssmall_1{
-    width:50px;
-    height:970px;
-    background: #E6E6E6;
-    opacity: 0;
-    position: absolute;
-    left:0;
-    top:0;
-    z-index:800;
-    display: none;
-}
-.ill_Ssmall_1 h4,.ill_Ssmall_1 h4{
-    margin-top: 770px;
-}
-.ill_Ssmall_1 h4{
-    font-family: '조선굵은고딕';
-    font-size:22px;
-    text-align: center;
-}
-.ill_Ssmall_1 h5{
-    font-family: '조선굵은고딕';
-    font-size:22px;
-    text-align: center;
-}
 .ill_small{
     background: #E6E6E6;
-    width: 640px;
-    height: 100vh;
-    overflow: hidden;
     opacity: 1;
     pointer-events: none;
-    position: absolute;
 }
 .ill_small figure{
     width:588px;
@@ -974,13 +931,7 @@ nav ul{
     overflow-x: hidden;
 }
 .ill.on>.ill_small{
-    /* opacity: 0; */
     display: none;
-}
-.ill.on>.ill_big{
-    opacity: 1;
-    z-index: 800;
-    pointer-events: all;
 }
 .ill.on>.ill_small_text{
     opacity: 0;
@@ -1000,13 +951,7 @@ nav ul{
 /*recent work - edi  */
 .edi_small{
     background: #D0D0D0;
-    width:640px;
-    height:100vh;
-    overflow: hidden;
-    opacity: 1;
     pointer-events: none;
-    position: absolute;
-    z-index:100;
 }
 .edi_small figure{
     width:588px;
@@ -1420,17 +1365,9 @@ nav ul{
 .edi.on{
     width:100%;
     height:100vh;
-    overflow-y: auto;
-    overflow-x: hidden;
 }
 .edi.on>.edi_small{
-    /* opacity: 0; */
-        display: none;
-}
-.edi.on>.edi_big{
-    opacity: 1;
-    z-index: 800;
-    pointer-events: all;
+    display: none;
 }
 .edi.on>.edi_small_text{
     opacity: 0;
