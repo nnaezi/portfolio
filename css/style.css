@@ -371,7 +371,7 @@ nav ul{
     padding: 10px;
     transform: rotate(-70deg);
     position: absolute;
-    bottom:250px;
+    bottom:310px;
     right:-100px;
     transition: all 0.3s ease 0.1s;
 }
@@ -540,7 +540,7 @@ nav ul{
     font-size:115px;
     text-transform: uppercase;
     color: white;
-    margin-top: 55%;
+    margin-top: 65%;
 }
 .web_big_R{
     width:calc(1820px/3);
@@ -1349,11 +1349,11 @@ nav ul{
 }
 
 .edi_poster_w1 figure{
-    width: 970px;
-    height:auto;
+    width: 930px;
+    height: auto;
     position: absolute;
-    right:5%;
-    top:20%;
+    right: 10%;
+    top: 20%;
 }
 .edi_poster_w1 figure>img{
     width:100%;
