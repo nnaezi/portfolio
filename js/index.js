@@ -75,11 +75,6 @@ $(function () {
         let sT = $('.red').scrollTop();
         let dT = $('.detail_shopI1').offset().top
 
-        console.log(wH)
-        console.log("scrolltop",sT)
-        console.log('-',sT-wH)
-        console.log('dT',dT)
-
         $(".detail_mainT,.detail_mainI,.detail_shopI1,.detail_productB,.detail_mobileT").each(function(){
             if(sT - wH > $(this).offset().top){
             $(this).addClass("zzan");
