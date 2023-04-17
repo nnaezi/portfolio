@@ -69,12 +69,27 @@ $(function () {
     });
 
    
-    
-    
-    // ill_popup
+    //red
+    $('.red').scroll(function(){
+        let wH = $('.red').height() * 1.7;
+        let sT = $('.red').scrollTop();
+        let dT = $('.detail_shopI1').offset().top
 
+        console.log(wH)
+        console.log("scrolltop",sT)
+        console.log('-',sT-wH)
+        console.log('dT',dT)
+
+        $(".detail_mainT,.detail_mainI,.detail_shopI1,.detail_productB,.detail_mobileT").each(function(){
+            if(sT - wH > $(this).offset().top){
+            $(this).addClass("zzan");
+            }else{
+            $(this).removeClass("zzan");
+            }
+        });
+    });
+    // ill_popup
     $(".illScrollContents").scroll(function () {
-        
         let scHeight = $(".illScrollContents").height();
         let scdoTop = $(".illScrollContents").offset().top;
         // console.log(scHeight)
@@ -100,8 +115,6 @@ $(function () {
     }
 
 
-
-
 //ill_banner
     new Swiper(".ill_banner", {
         loop: true,
@@ -116,6 +129,11 @@ $(function () {
     $('.edi').scroll(function(){
         let wH = $('.edi').height()*0.8;
         let sT = $('.edi').scrollTop();
+        let dt = $('.gen img').offset().top;
+
+        console.log("scrolltop",sT)
+        console.log('+',sT+wH)
+        console.log(dt)
 
         $(".gen img,.cel img,.cha img,.adv img,.ver img").each(function(){
             if(sT+wH > $(this).offset().top){
